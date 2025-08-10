@@ -54,11 +54,22 @@ Form-Management-System/
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
-```bash
+
 - git clone https://github.com/your-username/form-management-system.git
 - cd form-management-system
 
 ---
 
+## 2️⃣ Backend Setup (Django)
 
+- cd backend
+- python -m venv .venv
+- .venv\Scripts\activate    # Windows PowerShell
+- pip install --upgrade pip
+- pip install django djangorestframework django-cors-headers
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver
+
+- Backend runs at: http://127.0.0.1:8000/
 
