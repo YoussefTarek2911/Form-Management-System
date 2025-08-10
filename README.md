@@ -60,8 +60,8 @@ cd form-management-system
 
 ---
 
-2️⃣ Backend Setup (Django)
-bash
+### 2️⃣ Backend Setup (Django)
+```bash
 Copy
 Edit
 cd backend
