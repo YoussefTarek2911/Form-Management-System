@@ -55,8 +55,8 @@ Form-Management-System/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/form-management-system.git
-cd form-management-system
+- git clone https://github.com/your-username/form-management-system.git
+- cd form-management-system
 
 ---
 
