@@ -81,3 +81,25 @@ Form-Management-System/
 - npm install
 - npm start
 - Frontend runs at: http://localhost:3000/
+
+---
+
+## 📡 API Endpoints
+Method	Endpoint	Description
+GET	/api/forms/	List all forms
+POST	/api/forms/	Create new form
+GET	/api/forms/<id>/	Retrieve specific form
+POST	/api/forms/<id>/submit/	Submit form response
+GET	/api/forms/<id>/submissions/	List submissions for a form
+
+---
+## ✅ Testing the System
+
+# Backend check
+
+- python manage.py runserver  # No errors
+- Visit: http://127.0.0.1:8000/api/forms/ → should return [] or existing forms.
+
+# Frontend check
+
+- npm start  # Run inside frontend/
