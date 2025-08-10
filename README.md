@@ -73,3 +73,11 @@ Form-Management-System/
 
 - Backend runs at: http://127.0.0.1:8000/
 
+---
+
+## 3️⃣ Frontend Setup (React)
+
+- cd ../frontend
+- npm install
+- npm start
+- Frontend runs at: http://localhost:3000/
